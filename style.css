@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.flex-container{
+    display: flex;
+    background-color: #ee0d0d;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+    box-shadow: 0px 2px #ccc;
+    
+}
+.nav-links {
+display: flex;
+justify-content: space-around;
+}
+ul.nav-links{
+    list-style: none;
+} 
+ul.nav-links li a, .flex-container a {
+    color: #ffff;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration:none;
+    margin: 0px 20px;
+}
+a:hover, .nav-links li a:hover{
+    cursor: pointer;
+    color:black;
+}
+.text-block{
+    position: absolute;
+    top: 56%;
+    left: 100px;
+}
+.banner{
+    position: relative;
+}
+.btn-bookme{
+    padding: 13px 39px;
+    border-radius: 15px 56px;
+    border: none;
+    margin-bottom: 10px;
+    background: #ee0d0d;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+.text-block p{
+    font-size: 23px;
+    color: #fff;
+    font-style: oblique;
+    font-weight: 600;
+}
+.about-us{
+    display: flex;
+    justify-content: space-between;
+}
+.abt-image{
+    border: 6px solid #ccc;
+    box-shadow: 6px 1px #b99d9d;
+   
+}
+.about-img-sec{
+    margin: 49px 26px;
+    
+}
+.abt-desc{
+    
+    margin: 49px 26px;
+}
+.abt-desc p{
+    font-size: 19px;
+    text-align: justify;
+    color: black;
+}
+.abt-desc ul {
+    margin: 25px 55px;
+}
+.abt-desc ul li{
+    list-style: circle;
+    line-height: 31px;
+    font-size: 19px;
+}
+.abt-desc h1 {
+    font-size: 33px;
+    color: #ee0d0d;
+    margin-bottom: 8px;
+    font-weight: 200;
+    text-decoration: overline;
+}
+.our-service{
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 33px;
+}
